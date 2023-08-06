@@ -1,81 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nur Ariffin bin Mohd Zin</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-
+    <title>Nur Ariffin bin Mohd Zin | Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             background-color: #f5f5f5;
             color: #333;
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
         }
-
-        .header {
-            background-color: #007bff;
-            color: white;
+        .container {
+            max-width: 960px;
         }
-
         .profile-image {
-            width: 150px;
+            max-width: 150px;
             border-radius: 50%;
+            margin-top: 20px;
         }
-
+        .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
         .card {
-            border: 1px solid #007bff;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
         }
-
         .card-header {
-            background-color: #007bff;
-            color: white;
+            background-color: #007BFF;
+            color: #fff;
         }
-
-        .linkedin-link {
-            color: #007bff;
+        .card-body {
+            background-color: #f5f5f5;
         }
-
-        .linkedin-link:hover {
-            text-decoration: none;
+        .card-text {
+            color: #333;
         }
     </style>
 </head>
-
 <body>
-    <header class="header py-4 text-center">
-        <img src="path-to-your-image.jpg" alt="Profile Image" class="profile-image">
+    <div class="container text-center">
+        <img src="your-image-url-here.jpg" alt="Profile Image" class="profile-image">
         <h1>Nur Ariffin bin Mohd Zin</h1>
-        <p>Senior Lecturer, Universiti Tun Hussein Onn Malaysia</p>
-    </header>
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">Subjects Taught</div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Java Programming (2020)</li>
-                        <li class="list-group-item">Web Development (2021)</li>
-                        <li class="list-group-item">Blockchain (2022)</li>
-                    </ul>
-                </div>
+        <p>Senior Lecturer</p>
+        <p>Institution: Universiti Tun Hussein Onn Malaysia</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com"><img src="https://www.cdnlogo.com/logos/f/84/facebook.svg"></a>
+            <a href="https://www.linkedin.com/in/ariffinmzin/"><img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg"></a>
+            <a href="https://twitter.com/akudanstrat"><img src="https://www.cdnlogo.com/logos/t/45/twitter.svg"></a>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Subjects taught
             </div>
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">About Me</h5>
-                        <p class="card-text">With over a decade of experience in the field of computer science, I have dedicated my career to shaping the minds of the future. I am passionate about technology and always eager to share my knowledge with others.</p>
-                        <a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank" class="linkedin-link">View My LinkedIn Profile</a>
-                    </div>
-                </div>
+            <div class="card-body">
+                <p class="card-text">Java Programming (2020)</p>
+                <p class="card-text">Web Development (2021)</p>
+                <p class="card-text">Blockchain (2022)</p>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
