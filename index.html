@@ -1,104 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nur Ariffin bin Mohd Zin - Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      color: #333;
-      background-color: #f2f2f2;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nur Ariffin's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            text-align: center;
+        }
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
+        h1 {
+            font-size: 36px;
+            color: #00f;
+        }
 
-    h1 {
-      font-size: 30px;
-      color: blue;
-      text-align: center;
-      margin-bottom: 10px;
-    }
+        h2 {
+            font-size: 24px;
+            color: #0f0;
+        }
 
-    h2 {
-      font-size: 24px;
-      color: green;
-      text-align: center;
-      margin-top: 5px;
-    }
+        h3 {
+            font-size: 18px;
+            color: #fff;
+            background-color: #00f;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
 
-    p {
-      font-size: 16px;
-      text-align: center;
-      margin: 10px 0;
-    }
+        .profile-image {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-    .about-me {
-      text-align: center;
-      background-color: white;
-      border-radius: 10px;
-      padding: 20px;
-    }
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-    .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 10px;
-    }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
-    .social-links {
-      text-align: center;
-      margin-top: 20px;
-    }
+        .social-links img {
+            width: 30px;
+            height: 30px;
+            margin: 0 10px;
+        }
 
-    .social-links a {
-      display: inline-block;
-      width: 30px;
-      height: 30px;
-      margin: 0 10px;
-    }
-
-    .footer {
-      margin-top: 40px;
-      text-align: center;
-      color: #666;
-      font-size: 12px;
-    }
-  </style>
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 90%;
+                margin: 0 auto 20px;
+            }
+        }
+    </style>
 </head>
-
 <body>
-  <div class="container">
-    <h1>Nur Ariffin bin Mohd Zin</h1>
-    <h2>Senior Lecturer</h2>
-    <p>Institution: Universiti Tun Hussein Onn Malaysia</p>
-    <p>Qualification: Degree in Computer Science</p>
-    <p>Subjects taught: Java Programming (2020), Web Development (2021), Blockchain (2022)</p>
-    <p>Skills: HTML, JavaScript, PHP, Python, Laravel, Node.js, React.js</p>
-
-    <div class="about-me">
-      <img class="profile-img" src="your-image-url.jpg" alt="Profile Picture">
-      <p>Hello! I am Nur Ariffin bin Mohd Zin, a Senior Lecturer at Universiti Tun Hussein Onn Malaysia. I hold a Degree in Computer Science and have been teaching various subjects including Java Programming, Web Development, and Blockchain. With expertise in HTML, JavaScript, PHP, Python, Laravel, Node.js, and React.js, I am passionate about developing web applications that drive innovation and solve real-world challenges.</p>
+    <h1>Nur Ariffin's Portfolio</h1>
+    <img class="profile-image" src="your_image.jpg" alt="Nur Ariffin">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>Name: Nur Ariffin bin Mohd Zin</p>
+        <p>Occupation: Senior Lecturer</p>
+        <p>Institution: Universiti Tun Hussein Onn Malaysia</p>
+        <p>Qualification: Degree in Computer Science</p>
+        <p>Subjects taught: Java Programming (2020), Web Development (2021), Blockchain (2022)</p>
+        <p>Skills: HTML, JavaScript, PHP, Python, Laravel, Node.js, React.js</p>
     </div>
-
-    <div class="social-links">
-      <a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank"><img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg"></a>
-      <a href="www.facebook.com" target="_blank"><img src="https://www.cdnlogo.com/logos/f/74/facebook.svg"></a>
-      <a href="https://twitter.com/akudanstrat" target="_blank"><img src="https://www.cdnlogo.com/logos/t/45/twitter.svg"></a>
+    <div class="card">
+        <h2>Contact</h2>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ariffinmzin/" target="_blank"><img src="https://www.cdnlogo.com/logos/l/66/linkedin-icon.svg"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="https://www.cdnlogo.com/logos/f/74/facebook.svg"></a>
+            <a href="https://twitter.com/akudanstrat" target="_blank"><img src="https://www.cdnlogo.com/logos/t/45/twitter.svg"></a>
+        </div>
     </div>
-  </div>
-
-  <div class="footer">
-    &copy; 2023 Nur Ariffin bin Mohd Zin. All rights reserved.
-  </div>
+    <div class="card">
+        <h2>Projects</h2>
+        <!-- Add your projects here -->
+    </div>
+    <div class="card">
+        <h2>Resume</h2>
+        <!-- Add your resume here -->
+    </div>
+    <div class="card">
+        <h2>Testimonials</h2>
+        <!-- Add testimonials here -->
+    </div>
+    <div class="card">
+        <h2>Contact Me</h2>
+        <!-- Add a contact form here -->
+    </div>
+    <footer>
+        <p>&copy; 2023 Nur Ariffin's Portfolio. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>
